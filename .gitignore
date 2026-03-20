@@ -1,0 +1,12 @@
+# Ignore everything by default
+*
+
+# But do NOT ignore these specific types
+!*.c
+!*.h
+!*.md
+!.gitignore
+!Makefile
+
+# Don't ignore folders themselves, just their contents
+!*/
