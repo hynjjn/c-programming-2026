@@ -6,5 +6,5 @@ int main() {
 
     finalPrice = (price - (price * ((double)discountRate / 100)));
     printf("최종 가격: %d원\n", finalPrice);
-return 0;
+    return 0;
 }

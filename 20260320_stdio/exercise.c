@@ -16,7 +16,7 @@ int main() {
     // print
     printf("=== 발행된 영수증 ===\n");
     printf("%-10s %-10s %-10s\n", "name", "price", "quantity");
-    printf("%-10s %-10d %-10d\n", product_name, price, quantity);
+    printf("%-10s %-10d %-10d\n", name, price, quantity);
     printf("==============================\n");
     return 0;
 }
